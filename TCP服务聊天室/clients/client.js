@@ -15,7 +15,7 @@ cin.on('data',(chunk)=>{
     let temp = chunk.toString();
     var input = (chunk+'').replace(/[\r\n]/ig,"");//替换输入的无效内容
     if(input.length!=0){//输入内容不为空
-        if(client === null){
+        if(client === null){//第一次创建客户端
             userInfo.name = input;
             createClient();
         }else{
