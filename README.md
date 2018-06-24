@@ -1,3 +1,4 @@
 ### 学习node的一些demo
-* [抓取网页图片 (需要依赖)](抓取网页图片)
-* [修改json文件](操作json文件)
+* [下载网页中图片 (需要依赖)](./download-page-pictures)
+* [修改json文件](./modify-json-file)
+* [聊天室](./chat-room)
