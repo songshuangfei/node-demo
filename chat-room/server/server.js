@@ -15,10 +15,11 @@ function analysisMsg(client,clientMsg){
         uidCount++;
         break;
     case "chat":
-        chatMsg(msg)
+        chatMsg(msg);
         break;
     case "logout":
-        logoutMsg(msg)
+        logoutMsg(msg);
+        delete clients[msg.uid];
         break;
     }
 }
