@@ -1,10 +1,7 @@
 var app = require("./route/app");
 var path = require("path")
 
-
-
-
-app.SetStatic(path.join(__dirname,"./static"))
+app.SetStatic(path.join(__dirname,"./static"))//设置静态文件目录
 
 
 app.Get("/user",function(req,res){
