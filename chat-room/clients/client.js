@@ -12,7 +12,6 @@ var userInfo = {
 cout.write(`请输入昵称：`);
 //监听命令行输入
 cin.on('data',(chunk)=>{
-    let temp = chunk.toString();
     var input = (chunk+'').replace(/[\r\n]/ig,"");//替换输入的无效内容
     if(input.length!=0){//输入内容不为空
         if(client === null){//第一次创建客户端
