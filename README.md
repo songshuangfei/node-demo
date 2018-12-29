@@ -3,4 +3,4 @@
 * [修改json文件](./modify-json-file)
 * [聊天室](./chat-room)
 * [http路由](./http-route)
-* [http路由](./http-route)
+* [generator控制的文件读写](./file-reader-generator)
