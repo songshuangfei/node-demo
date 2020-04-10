@@ -2,10 +2,6 @@ var Koa = require("./koa");
 let app = new Koa();
 
 app.use(async (ctx, next) => { 
-  let 
-})
-
-app.use(async (ctx, next) => { 
   console.log(`${ctx.method} ${ctx.url} at ${new Date()}`);
   await next();
   console.log(`${ctx.method} ${ctx.url} finished at ${new Date()}`)
